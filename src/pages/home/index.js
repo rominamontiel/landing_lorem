@@ -1,8 +1,13 @@
 import React from 'react';
 import './index.scss';
+import Header from '../../components/Header';
+import Banner from '../../components/Banner';
 
-export default function NotFound() {
+export default function Home() {
   return (
-    <h2>Home</h2>
+    <section className="page-home">
+      <Header />
+      <Banner />
+    </section>
   );
 }
