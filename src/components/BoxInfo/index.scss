@@ -1,0 +1,60 @@
+.box-info{
+    padding: 3.5vw 3.85vw 3.5vw 3.5vw;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(233, 233, 234, 0.4);
+    border-radius: 20px;
+    flex: 1;
+    margin-right: 3.15%;
+
+    &:last-child{
+        margin-right: 0;
+    }
+
+    h3{
+        font-weight: bold;
+        line-height: 233%;
+        color: #000000;
+        margin-bottom: 0;
+        font-size: 1.8vw;
+        margin-top: 0;
+    }
+
+    p{
+        margin-top: 0;
+        font-weight: 300;
+        line-height: 175%;
+        color: #7D7987;
+        font-size: 1.2vw;
+    }
+}
+
+@media(min-width:1800px){
+    .box-info{
+        h3{
+            font-size: 28px;
+        }
+
+        p{
+            font-size: 17px;
+        }
+    }
+}
+
+
+@media(max-width:700px){
+    .box-info{
+        flex: initial;
+        width: 60vw;
+        margin-right: 0;
+        margin-bottom: 2rem;
+        padding: 2rem 1rem;
+
+        h3 {
+          font-size: 1rem;
+        }
+
+        p {
+          font-size: .8rem;
+        }
+    }
+}

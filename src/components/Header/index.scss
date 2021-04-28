@@ -3,6 +3,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: white;
 
     *{
         white-space: nowrap;
@@ -53,6 +54,11 @@ header{
 
         ul{
             display: none;
+        }
+
+        .btn-no-fill{
+            padding: 8px 17px;
+            font-size: 12px;
         }
     }
 }
