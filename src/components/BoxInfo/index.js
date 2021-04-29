@@ -1,13 +1,12 @@
 import React from 'react';
 import './index.scss';
 
-export default function boxInfo() {
+export default function boxInfo(props) {
   return (
     <section className="box-info">
-      <h3>Lorem ipsum dolor</h3>
+      <h3>{props.title}</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt.
+        {props.description}
       </p>
     </section>
   );
