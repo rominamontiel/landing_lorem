@@ -3,6 +3,18 @@ import './index.scss';
 import BoxInfo from '../BoxInfo';
 
 export default function description() {
+  const firstBox = {
+    title: 'Lorem ipsum dolor',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+  };
+  const secondBox = {
+    title: 'Lorem ipsum dolor',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+  };
+  const thirdBox = {
+    title: 'Lorem ipsum dolor',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+  };
   return (
     <section className="description" id="description">
       <div className="text-content">
@@ -14,9 +26,9 @@ export default function description() {
         </p>
       </div>
       <div className="boxes-info">
-        <BoxInfo />
-        <BoxInfo />
-        <BoxInfo />
+        <BoxInfo title={firstBox.title} description={firstBox.description} />
+        <BoxInfo title={secondBox.title} description={secondBox.description} />
+        <BoxInfo title={thirdBox.title} description={thirdBox.description} />
       </div>
     </section>
   );
