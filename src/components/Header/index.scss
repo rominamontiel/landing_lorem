@@ -21,13 +21,14 @@ header{
         li{
             margin-left: 2rem;
 
-            span{
+            a{
                 font-weight: 500;
                 font-size: 14px;
                 line-height: 17px;
                 letter-spacing: 0.03em;
                 color: #9FA3B0;
                 cursor: pointer;
+                text-decoration: none;
             }
         }
     }
