@@ -9,9 +9,9 @@ export default function header() {
       </div>
       <div>
         <ul>
-          <li><span>Qué es</span></li>
-          <li><span>Cómo funciona</span></li>
-          <li><span>Contacto</span></li>
+          <li><a href="#description">Qué es</a></li>
+          <li><a href="#description">Cómo funciona</a></li>
+          <li><a href="#description">Contacto</a></li>
         </ul>
         <a className="btn-no-fill" href="/">Iniciar sesión</a>
       </div>
