@@ -121,9 +121,16 @@ section.banner{
     }
 }
 
+@media(max-width: 799px){
+    section.banner{
+        padding-bottom: 0;
+    }
+}
+
 @media(max-width: 700px){
     section.banner{
         height: 40vh;
+        min-height: 320px;
         overflow: hidden;
 
         .banner-background{
