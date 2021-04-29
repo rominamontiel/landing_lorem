@@ -10,7 +10,7 @@ export default function header() {
       <div>
         <ul>
           <li><a href="#description">Qué es</a></li>
-          <li><a href="#description">Cómo funciona</a></li>
+          <li><a href="#info-work">Cómo funciona</a></li>
           <li><a href="#description">Contacto</a></li>
         </ul>
         <a className="btn-no-fill" href="/">Iniciar sesión</a>

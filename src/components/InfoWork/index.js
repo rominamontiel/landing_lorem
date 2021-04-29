@@ -3,7 +3,7 @@ import './index.scss';
 
 export default function InfoWork() {
   return (
-    <section className="info-work">
+    <section className="info-work" id="info-work">
       <div className="left-box">
         <img alt="" src="/img/work.svg" />
       </div>
