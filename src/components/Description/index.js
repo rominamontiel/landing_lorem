@@ -4,7 +4,7 @@ import BoxInfo from '../BoxInfo';
 
 export default function description() {
   return (
-    <section className="description">
+    <section className="description" id="description">
       <div className="text-content">
         <h2>¿Qué es kwiz?</h2>
         <div className="line" />
