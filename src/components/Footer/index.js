@@ -12,7 +12,7 @@ export default function footer() {
         <ul>
           <li><a href="#description">Qué es</a></li>
           <li><a href="#info-work">Cómo funciona</a></li>
-          <li><a href="#description">Contacto</a></li>
+          <li><a href="#form">Contacto</a></li>
         </ul>
         <img alt="" src="/img/utopias.svg" />
       </div>
