@@ -34,7 +34,7 @@ section.description{
 
     .boxes-info{
         background-color: white;
-        padding: 10px 9% 200px 9%;
+        padding: 10px 9% 100px 9%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -58,7 +58,7 @@ section.description{
 @media(min-width:1800px){
     section.description{
         .boxes-info{
-            padding: 10px 15% 200px 15%;
+            padding: 10px 15% 100px 15%;
         }
     }
 }
@@ -69,7 +69,8 @@ section.description{
             padding-top: 2rem;
 
             h2{
-                font-size: 1.1rem;
+                font-size: 1.6rem;
+                margin-top: 2.3rem;
             }
 
             p{
@@ -78,7 +79,7 @@ section.description{
             }
         }
         .boxes-info{
-            padding: 1rem 1rem 100px 1rem;
+            padding: 1rem 1rem 70px 1rem;
             flex-direction: column;            
         }
     }

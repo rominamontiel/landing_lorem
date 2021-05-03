@@ -3,7 +3,8 @@ import './index.scss';
 
 export default function Form() {
   return (
-    <section className="form-container" id="form">
+    <section className="form-container">
+      <div className="toScroll" id="form" />
       <div className="form-box">
         <h2>¡Completa para que te contacten!</h2>
         <p>

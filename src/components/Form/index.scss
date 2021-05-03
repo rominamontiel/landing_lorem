@@ -2,6 +2,13 @@ section.form-container{
     position: relative;
     padding-bottom: 100px;
 
+    .toScroll{
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        top: -100px;
+    }
+
     .form-box{
         background: #FFFFFF;
         box-shadow: 10px 10px 10px rgba(7, 53, 45, 0.04);
