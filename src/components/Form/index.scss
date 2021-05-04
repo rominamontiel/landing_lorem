@@ -1,0 +1,180 @@
+section.form-container{
+    position: relative;
+    padding-bottom: 100px;
+
+    .toScroll{
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        top: -100px;
+    }
+
+    .form-box{
+        background: #FFFFFF;
+        box-shadow: 10px 10px 10px rgba(7, 53, 45, 0.04);
+        border-radius: 10px;
+        margin: -200px auto 0 auto;
+        width: 82%;
+        padding: 50px 70px 40px 70px;
+
+        h2{
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 114%;
+            color: #0B132A;
+            margin: 0;
+        }
+
+        p{
+            width: 60%;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 200%;
+            color: #4F5665;
+            margin-bottom: 2.7rem;
+        }
+
+        form{
+            display: flex;
+
+            .left, .right{
+                flex: 1;
+
+                .field-box{
+                    margin-bottom: 1.25rem;
+
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+
+                    span{
+                        font-weight: 500;
+                        font-size: 15.5px;
+                        line-height: 19px;
+                        color: #9FA3B0;
+                        display: block;
+                        margin-bottom: 7px;
+                    }
+
+                    input{
+                        background: #EEF0F4;
+                        border-radius: 16px;
+                        outline: none;
+                        border: none;
+                        height: 45px;
+                        font-family: 'Montserrat', sans-serif;
+                        width: 100%;
+                        padding: 0 1rem;
+                    }
+
+                    textarea {
+                        background: #EEF0F4;
+                        border-radius: 16px;
+                        height: 100%;
+                        width: 100%;
+                        resize: none;
+                        border: none;
+                        outline: none;
+                        display: block;
+                        padding: 1rem;
+                        max-height: 227px;
+                        font-family: 'Montserrat', sans-serif;                        
+                    }
+                }
+            }
+
+            .left{
+                padding-right: 2rem;
+            }
+            
+        }
+
+        .send-box{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 2.2rem;
+            
+            .btn{
+                background: #00AF91;
+                border-radius: 10px;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 156%;
+                text-align: center;
+                color: #FFFFFF;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 17px 98px;
+                box-shadow: 0px 20px 39px rgba(49, 105, 96, 0.212);
+                transition: all .15s ease-in-out;
+                user-select: none;
+
+                &:hover{
+                    transform: scale(1.02);
+                }
+
+                &:active{
+                    transform: scale(0.98);
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 1800px){
+    section.form-container{
+        .form-box{
+            width: 78%;
+        }
+    }
+}
+
+
+@media(max-width: 992px){
+    section.form-container{
+        .form-box{
+            h2{
+                text-align: center;
+                font-size: 1.8rem;
+            }
+            
+            p{
+                width: 100%;
+                text-align: center;
+
+            }
+
+            form{
+                flex-direction: column;
+
+                .left{
+                    padding-right: 0;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 700px){
+    section.form-container{
+        .form-box{
+            width: 90%;
+            padding: 2rem 1.5rem;
+
+            h2{
+                font-size: 1.5rem;
+            }
+
+            p{
+                font-size: .85rem;
+            }
+
+            .send-box .btn{
+                width: 100%;
+                padding: 15px 0;
+            }
+        }
+    }
+}
