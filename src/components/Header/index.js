@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { useState } from 'react';
 import './index.scss';
 
@@ -6,14 +5,13 @@ export default function header() {
   const [menuMobile, setMenuMobile] = useState('');
   return (
     <header>
-      <div
+      <button
         className="menu-mobile"
-        role="button"
-        tabIndex="0"
+        type="button"
         onClick={() => setMenuMobile('active')}
       >
         <img alt="" src="/img/menumobile.svg" />
-      </div>
+      </button>
       <div className="brand-box">
         <a href="#top">
           <img alt="" src="/img/kwiz.svg" />
@@ -27,6 +25,13 @@ export default function header() {
         </ul>
         <a className="btn-no-fill" href="/">Iniciar sesión</a>
       </div>
+      <button
+        type="button"
+        className={`background-menu-mobile ${menuMobile}`}
+        onClick={() => setMenuMobile('')}
+      >
+        <div />
+      </button>
     </header>
   );
 }
