@@ -113,9 +113,11 @@ header{
             transition: all .3s ease-in-out;
             padding: 1rem;
             z-index: 4;
+            opacity: 0;
 
             &.active{
                 left: 0;
+                opacity: 1;
             }
             
             ul {
