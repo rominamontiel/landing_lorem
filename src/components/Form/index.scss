@@ -88,6 +88,37 @@ section.form-container{
             }
             
         }
+
+        .send-box{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 2.2rem;
+            
+            .btn{
+                background: #00AF91;
+                border-radius: 10px;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 156%;
+                text-align: center;
+                color: #FFFFFF;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 17px 98px;
+                box-shadow: 0px 20px 39px rgba(49, 105, 96, 0.212);
+                transition: all .15s ease-in-out;
+                user-select: none;
+
+                &:hover{
+                    transform: scale(1.02);
+                }
+
+                &:active{
+                    transform: scale(0.98);
+                }
+            }
+        }
     }
 }
 
@@ -138,6 +169,11 @@ section.form-container{
 
             p{
                 font-size: .85rem;
+            }
+
+            .send-box .btn{
+                width: 100%;
+                padding: 15px 0;
             }
         }
     }

@@ -33,6 +33,9 @@ export default function Form() {
             </div>
           </div>
         </form>
+        <div className="send-box">
+          <div className="btn">Enviar</div>
+        </div>
       </div>
     </section>
   );
