@@ -23,7 +23,6 @@ export default function header() {
           <li><a href="#info-work" onClick={() => setMenuMobile('')}>Cómo funciona</a></li>
           <li><a href="#form" onClick={() => setMenuMobile('')}>Contacto</a></li>
         </ul>
-        <a className="btn-no-fill" href="/">Iniciar sesión</a>
       </div>
       <button
         type="button"

@@ -13,7 +13,7 @@ export default function banner() {
           Ut enim ad minim veniam, quis nostrud exercitation ullamco
           laboris nisi ut aliquip ex ea commodo consequat.
         </p>
-        <a className="btn-go" href="/url">QUIERO HACER MI ENCUESTA</a>
+        <a className="btn-go" href={process.env.REACT_APP_WEB_ADMIN_REGISTER}>QUIERO HACER MI ENCUESTA</a>
       </div>
     </section>
   );
