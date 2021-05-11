@@ -6,14 +6,11 @@ export default function footer() {
     <footer>
       <div className="box-brand">
         <img alt="" src="/img/kwiz.svg" />
-        <span>&copy;2021 kwiz</span>
+        <span>&copy;2021 - All rights reserved.</span>
       </div>
-      <div className="nav">
-        <ul>
-          <li><a href="#description">Qué es</a></li>
-          <li><a href="#info-work">Cómo funciona</a></li>
-          <li><a href="#form">Contacto</a></li>
-        </ul>
+      <div className="dev">
+        Desarrollado por
+        <img className="grava" alt="" src="/img/grava.svg" />
         <img alt="" src="/img/utopias.svg" />
       </div>
     </footer>
