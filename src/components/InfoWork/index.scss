@@ -4,8 +4,16 @@ section.info-work{
     align-items: center;
     justify-content: space-between;
     background-color: white;
+    position: relative;
     width: 100%;
 
+    .toScroll {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      top: 0px;
+    }
+    
     .left-box{
         width: 38.3%;        
 
@@ -65,7 +73,15 @@ section.info-work{
 
 @media(min-width: 1500px){
     section.info-work{
-        min-height: 120vh;
+        min-height: 120vh;        
+    }
+}
+
+@media(max-width: 1499px){
+    section.info-work{
+        .toScroll{
+            top: -80px;
+        }
     }
 }
 
@@ -95,6 +111,10 @@ section.info-work{
 @media(max-width: 700px){
     section.info-work{
         padding: 100px 5% 300px 5%;
+
+        .toScroll{
+            top: 0;
+        }
 
         .left-box{
             margin-bottom: 3rem;            
