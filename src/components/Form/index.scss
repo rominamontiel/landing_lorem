@@ -56,7 +56,7 @@ section.form-container{
                         margin-bottom: 7px;
                     }
 
-                    input{
+                    input, select{
                         background: #EEF0F4;
                         border-radius: 16px;
                         outline: none;
@@ -68,15 +68,12 @@ section.form-container{
                     }
 
                     select {
-                      background: #EEF0F4;
-                      border-radius: 16px;
-                      outline: none;
-                      border: none;
-                      height: 45px;
-                      font-family: 'Montserrat', sans-serif;
-                      width: 100%;
-                      text-decoration: none;
-                      padding: 0 1rem;
+                      appearance: none;
+                      -webkit-appearance: none;
+                      -moz-appearance: none;
+                      background: url("img/arrow_down.svg") no-repeat #EEF0F4;
+                      background-size: 0.7rem;
+                      background-position: 97% center;
                     }
 
                     textarea {
@@ -142,7 +139,6 @@ section.form-container{
     }
 }
 
-
 @media(max-width: 992px){
     section.form-container{
         .form-box{
@@ -163,6 +159,14 @@ section.form-container{
                 .left{
                     padding-right: 0;
                     margin-bottom: 2rem;
+                }
+
+                .left,.right{
+                    .field-box{
+                        select{
+                            background-position-x: 95%;
+                        }
+                    }
                 }
             }
         }
